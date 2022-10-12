@@ -1,0 +1,12 @@
+server:
+  port: 8081
+  error:
+    include-message: always
+
+spring:
+  jpa:
+    open-in-view: false
+  datasource:
+    url: "jdbc:postgresql://localhost:5434/timelydb"
+    username: "admin"
+    password: "12345678"
